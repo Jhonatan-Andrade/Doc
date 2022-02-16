@@ -1,6 +1,6 @@
 
-import HeaderDoc from '../../components/HeaderDocs';
-import {GStyle, Main,P} from  '../globalStyle'
+import HeaderDoc from '../../../components/HeaderDocs';
+import {GStyle, Main,P} from  '../../globalStyle'
 
 const Congf = () => {
 

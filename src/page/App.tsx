@@ -10,6 +10,7 @@ import AppRouter from '../navigation/router';
 import {Main} from './style'
 import {usePersistedState} from '../utils/usePersistedState';
 import GlobalStyle from'./globalStyle';
+import MyName from './components/dev';
 
 type ThemeType = { 
   title: string; 
@@ -30,6 +31,7 @@ function App() {
           <Menu toggleTheme={toggleTheme} />
           <AppRouter/>
         </Main>
+        <MyName/>
     </ThemeProvider>
   )
 }

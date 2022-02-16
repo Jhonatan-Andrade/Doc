@@ -2,14 +2,15 @@
 
 import { useContext } from "react";
 import { IoAlertOutline ,IoHome } from "react-icons/io5";
-
 import { Link } from 'react-router-dom';
 import { ThemeContext } from "styled-components";
+
 import {NotFoundBox,NotFoundButton,NotFoundErro,NotFoundTitle,NotFoundIcon } from'./styleNotFound';
 
-export  function NotFound() {
+export default function  NotFound() {
+
     const {title,colors} = useContext(ThemeContext)
-    console.log(colors.text1);
+
     
     return(
         <NotFoundBox>
@@ -35,5 +36,3 @@ export  function NotFound() {
         </NotFoundBox>
     )
 }
-
-

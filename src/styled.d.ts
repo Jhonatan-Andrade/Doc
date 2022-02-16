@@ -3,13 +3,13 @@ import 'styled-components';
 
 // and extend them!
 declare module 'styled-components' {
+
   export interface DefaultTheme {
     title:string,
-
     colors:{
-
         bg1:string,
         bg2:string,
+        bg3:string,
         menu:string,
         menuText:string,
         card:string,
@@ -17,7 +17,6 @@ declare module 'styled-components' {
         cardBorder:string,
         pageTitle:string,
         text1:string,
-
     }
   }
 }

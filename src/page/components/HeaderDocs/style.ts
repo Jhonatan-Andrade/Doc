@@ -24,7 +24,7 @@ height:50px;
 border-radius: 25px 0  25px 25px;
 color:#FFF;
 font-size :20px;
-background-color:#137bd0;
+background-color:${props=>props.theme.colors.menu};
 border:none ;
 padding-top:5px; 
 transition: all 0.2s ease-out;

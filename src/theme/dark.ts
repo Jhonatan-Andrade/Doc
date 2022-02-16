@@ -4,17 +4,16 @@ export default {
 
     colors:{
 
-        bg1:'#000',
+        bg1:'#121214',
         bg2:'#1e1e1e',
-        menu:'#137bd0',
+        bg3:'#271A45',
+        menu:'#633BBC',
         menuText:'#fff',
         card:'#1e1e1e',
         cardText:'#fff',
         cardBorder:'#137bd0',
         pageTitle:'#fff',
         text1:'#fff',
-        
-
     }
 }
 
